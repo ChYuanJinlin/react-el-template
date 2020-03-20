@@ -14,4 +14,7 @@ export const count = (state = 1, action) => {
 
     }
 }
+export default combineReducers({
+    count
+})
 
