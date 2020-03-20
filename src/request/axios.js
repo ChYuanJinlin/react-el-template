@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-03-01 17:19:53
- * @LastEditTime: 2020-03-17 15:35:38
+ * @LastEditTime: 2020-03-20 14:09:44
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \vue-blog\src\request\axios.js
@@ -12,7 +12,6 @@ import {createHashHistory} from 'history';
 import BASE from './base'
 import { Loading } from 'element-ui';
 import QS from 'qs'; // 引入qs模块，用来序列化post类型的数据，后面会提到
-// vant的toast提示框组件，大家可根据自己的ui组件更改。
 import { Message } from 'element-react';
 const history = createHashHistory();
 
