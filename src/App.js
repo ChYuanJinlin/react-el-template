@@ -132,7 +132,7 @@ class App extends React.Component {
             <Button onClick={this.handle} type="primary">
               <p>{intl.get('title')}</p>
               <p>{intl.get('ConfigRedux')}</p>
-              <p>{intl.get('configRouter')}</p>
+              <p>{intl.get('Customtheme')}</p>
               <p>{intl.get('configReq')}</p>
               <p>{intl.get('i18n')}</p>
 
